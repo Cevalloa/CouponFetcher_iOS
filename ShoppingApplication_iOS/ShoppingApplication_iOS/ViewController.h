@@ -8,6 +8,17 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController 
+
+@property (weak, nonatomic) IBOutlet UITextField *textFieldUserNameEntry;
+@property (weak, nonatomic) IBOutlet UITextField *textFieldPassWordEntry;
+
+- (IBAction)buttonLoginSubmission:(id)sender;
+
+//Creates the formated attribute string for user name & password field
+-(NSAttributedString *)createAttributedStringForTextField:(NSString *)stringPassedIn;
+
+//Dismisses UITextField
+-(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event;
 
 @end
