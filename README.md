@@ -1,4 +1,4 @@
-## Software Engineer - iOS / Code Test ##
+## Messing Around With AFNetworking ##
 
 
 ### Introduction ###
@@ -6,7 +6,7 @@
 
 ### Requirements ###
 
-Your mission is to write an app with the following screens 
+The Layout I want to build is:
 
 ![](design/coupons.png) ![](design/login.png)
 
@@ -35,10 +35,8 @@ Use the [design](design) folder for guidance, we would like you to focus on how 
   - Resource: `http://api.bluepromocode.com/v2/users/self/promotions/suggestions`
   - Method: `GET` 
 
-### Submitting Your Code ###
 
-1. Add all relevant project files and a README with the steps necessary for us to run your code.
 
 ### Notes ###
 
-* You're welcome to use any framework(s) of your choosing for this project (we're using [AFNetworking](http://afnetworking.com/)).
+Uses AFNetworking.. as a heads up this project is not MVC
