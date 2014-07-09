@@ -3,6 +3,7 @@
 
 ### Introduction ###
 
+This is an old project, and not something I am proud of. I was just finddling around with AFNetworking, nothing serious.
 
 ### Requirements ###
 
@@ -10,7 +11,6 @@ The Layout I want to build is:
 
 ![](design/coupons.png) ![](design/login.png)
 
-Use the [design](design) folder for guidance, we would like you to focus on how the app works
 
 1. Coupons
   - Show coupons from our REST API
